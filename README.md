@@ -3,6 +3,7 @@
 使用类别减少了代码侵入性<br>
 孙源大神FDFullscreenPopGesture的这个库能够完美解决导航侧滑问题，本人更喜欢使用系统的边缘侧滑，更加流畅。
 ```
+#import "UINavigationController+XLPopGesture.h"
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    self.enablePopGest = NO;//不允许侧滑
